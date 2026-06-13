@@ -1,0 +1,308 @@
+{
+    "meta": {
+        "project_id": "AI_DESIGN_001",
+        "project_name": "AI_DESIGN MVP",
+        "version": "0.2.0",
+        "created_at": "2026-04-04",
+        "updated_at": "2026-04-04",
+        "status": "in_progress",
+        "owner": "Vet2",
+        "description": "Локальная AI-система для автоматизации проектирования инженерных систем"
+    },
+    "project_goal": {
+        "main_goal": "Автоматизация разработки проектной и рабочей документации по инженерным системам с финальной проверкой инженером",
+        "final_verification_by_engineer": true
+    },
+    "source_files": {
+        "tz_files": [],
+        "ar_files": [],
+        "genplan_files": [],
+        "reference_files": [],
+        "templates": [],
+        "normative_docs": []
+    },
+    "object_info": {
+        "object_name": "",
+        "object_type": "",
+        "address": "",
+        "stage": "",
+        "project_stage_full": "",
+        "floors": null,
+        "underground_floors": null,
+        "sections": null,
+        "buildings_count": null,
+        "area_m2": null,
+        "site_area_m2": null,
+        "height_m": null,
+        "fire_resistance_degree": "",
+        "functional_fire_hazard_class": "",
+        "construction_class": "",
+        "notes": ""
+    },
+    "participants": {
+        "customer": "",
+        "general_designer": "",
+        "contractor": "",
+        "chief_engineer": "",
+        "responsible_engineer": ""
+    },
+    "design_scope": {
+        "stages_requested": [],
+        "deliverables": [
+          "explanatory_note",
+          "equipment_layout",
+          "specification",
+          "cable_journal",
+          "tasks_for_related_disciplines"
+        ],
+        "deliverables_ru": {
+        "explanatory_note": "Пояснительная записка",
+        "equipment_layout": "Расстановка оборудования",
+        "specification": "Спецификация",
+        "cable_journal": "Кабельный журнал",
+        "tasks_for_related_disciplines": "Задания смежным разделам"
+        },
+        "workflows_enabled": {
+            "tz_analysis": true,
+            "ar_analysis": true,
+            "genplan_analysis": true,
+            "equipment_layout": true,
+            "specification_generation": true,
+            "cable_journal_generation": true,
+            "tasks_for_related_disciplines": true,
+            "engineer_review_required": true
+        }
+    },
+    "systems_catalog": {
+        "structured_cabling": {
+            "code_ru": "СКС",
+            "name_ru": "Структурированная кабельная система",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "video_surveillance": {
+            "code_ru": "СОТ",
+            "name_ru": "Система охранного телевидения / видеонаблюдение",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "security_alarm": {
+            "code_ru": "ОПС",
+            "name_ru": "Охранная сигнализация",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "access_control": {
+            "code_ru": "СКУД",
+            "name_ru": "Система контроля и управления доступом",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "itso": {
+            "code_ru": "ИТСО",
+            "name_ru": "Инженерно-технические средства охраны",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "fire_alarm": {
+            "code_ru": "АПС",
+            "name_ru": "Автоматическая пожарная сигнализация",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        },
+        "outdoor_cable_networks": {
+            "code_ru": "НКС",
+            "name_ru": "Наружные кабельные сети",
+            "enabled": false,
+            "required_by_tz": false,
+            "priority": 0,
+            "notes": ""
+        }
+    },
+    "systems_requested": [],
+    "systems_by_object": {
+        "indoor_systems": [],
+        "outdoor_systems": [],
+        "integrated_systems": []
+    },
+    "technical_requirements": {
+        "general": [],
+        "customer_requirements": [],
+        "operational_requirements": [],
+        "reliability_requirements": [],
+        "redundancy_requirements": [],
+        "integration_requirements": [],
+        "cybersecurity_requirements": [],
+        "power_supply_requirements": [],
+        "installation_requirements": [],
+        "maintenance_requirements": [],
+        "constraints": [],
+        "special_conditions": []
+    },
+    "building_context": {
+        "building_type": "",
+        "functional_zones": [],
+        "rooms": [],
+        "special_rooms": [],
+        "server_room": {
+            "exists": false,
+            "location": "",
+            "notes": ""
+        },
+        "security_posts": [],
+        "access_points": [],
+        "evacuation_exits": [],
+        "staircases": [],
+        "elevator_halls": [],
+        "roof_access": false,
+        "facade_zones": [],
+        "parking_zones": [],
+        "perimeter_zones": []
+    },
+    "ar_context": {
+        "plans_loaded": false,
+        "floors_detected": [],
+        "rooms_detected": [],
+        "room_categories": [],
+        "axes_detected": [],
+        "dimensions_detected": false,
+        "equipment_placement_constraints": [],
+        "routing_constraints": [],
+        "notes": ""
+    },
+    "genplan_context": {
+        "loaded": false,
+        "site_boundaries": [],
+        "buildings": [],
+        "roads": [],
+        "fences": [],
+        "gates": [],
+        "checkpoints": [],
+        "external_cable_routes": [],
+        "external_equipment_points": [],
+        "perimeter_control_zones": [],
+        "notes": ""
+    },
+    "normative_base": {
+        "gost": [],
+        "sp": [],
+        "rd": [],
+        "sto": [],
+        "internal_standards": [],
+        "customer_standards": [],
+        "applied_documents": []
+    },
+    "equipment_preferences": {
+        "preferred_brands": [],
+        "approved_equipment": [],
+        "forbidden_equipment": [],
+        "analog_allowed": true,
+        "import_substitution_required": false,
+        "notes": ""
+    },
+    "integration_matrix": {
+        "aps_to_soue": false,
+        "aps_to_dispatching": false,
+        "skud_to_video": false,
+        "skud_to_intrusion_alarm": false,
+        "video_to_archive": false,
+        "itso_to_perimeter_security": false,
+        "outdoor_networks_to_indoor_systems": false,
+        "other_integrations": []
+    },
+    "parsed_data": {
+        "tz_summary": "",
+        "tz_sections": [],
+        "key_entities": [],
+        "detected_systems": [],
+        "detected_equipment": [],
+        "detected_rooms": [],
+        "detected_floors": [],
+        "detected_routes": [],
+        "detected_constraints": [],
+        "assumptions": [],
+        "risks": [],
+        "open_questions": []
+    },
+    "engineering_decisions": {
+        "accepted_assumptions": [],
+        "manual_overrides": [],
+        "system_architecture_notes": [],
+        "placement_logic_notes": [],
+        "cable_routing_logic_notes": [],
+        "specification_logic_notes": []
+    },
+    "outputs": {
+        "explanatory_note": {
+            "status": "not_started",
+            "path": "",
+            "version": ""
+        },
+        "equipment_layout": {
+            "status": "not_started",
+            "path": "",
+            "version": ""
+        },
+        "specification": {
+            "status": "not_started",
+            "path": "",
+            "version": ""
+        },
+        "cable_journal": {
+            "status": "not_started",
+            "path": "",
+            "version": ""
+        },
+        "tasks_for_related_disciplines": {
+            "status": "not_started",
+            "path": "",
+            "version": ""
+        },
+        "drawings": []
+    },
+    "generation_flags": {
+        "tz_loaded": false,
+        "tz_parsed": false,
+        "ar_loaded": false,
+        "ar_parsed": false,
+        "genplan_loaded": false,
+        "genplan_parsed": false,
+        "systems_detected": false,
+        "normative_base_attached": false,
+        "equipment_selected": false,
+        "layout_ready": false,
+        "specification_ready": false,
+        "cable_journal_ready": false,
+        "tasks_for_related_disciplines_ready": false,
+        "ready_for_explanatory_note": false,
+        "ready_for_drawings": false,
+        "ready_for_engineer_review": false,
+        "approved_by_engineer": false
+    },
+    "quality_control": {
+        "validation_errors": [],
+        "validation_warnings": [],
+        "missing_inputs": [],
+        "data_conflicts": [],
+        "review_comments": [],
+        "approval_status": "not_checked"
+    },
+    "history": {
+        "context_updates": [],
+        "parser_runs": [],
+        "generation_runs": [],
+        "manual_edits": []
+    }
+}
